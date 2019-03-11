@@ -1,0 +1,81 @@
+hash: 1f962484d6811dea484765a4848464fd3c612d4afb5eada91579e30090e44f03
+updated: 2019-03-11T05:56:58.599955479Z
+imports:
+- name: github.com/akamensky/argparse
+  version: b33e05fb8d6987f2a8313eb04b71c37f98d555aa
+- name: github.com/aws/aws-sdk-go
+  version: 8b705a6dec722bcda3a9309c0924d4eca24f7c72
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/processcreds
+  - aws/credentials/stscreds
+  - aws/csm
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/ini
+  - internal/sdkio
+  - internal/sdkrand
+  - internal/sdkuri
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/ec2query
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/xml/xmlutil
+  - service/ec2
+  - service/sts
+- name: github.com/fatih/color
+  version: 5b77d2a35fb0ede96d138fc9a99f5c9b6aef11b4
+- name: github.com/hashicorp/terraform
+  version: 07da549a1d20bf1db1a5f841835aa28b1576b4d3
+- name: github.com/jmespath/go-jmespath
+  version: c2b33e8439af944379acbdd9c3a5fe0bc44bd8a5
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: 369ecd8cea9851e459abb67eb171853e3986591e
+- name: github.com/sirupsen/logrus
+  version: e1e72e9de974bd926e5c56f83753fba2df402ce5
+  subpackages:
+  - hooks/syslog
+- name: github.com/stretchr/testify
+  version: ffdc059bfe9ce6a4e144ba849dbedead332c6053
+  subpackages:
+  - assert
+- name: github.com/theonlyjohnny/go-logger
+  version: 9a9db501bdcb9dc462120bf96cb55b3200e2463b
+  subpackages:
+  - logger
+- name: golang.org/x/crypto
+  version: c2843e01d9a2bc60bb26ad24e09734fdc2d9ec58
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 584f3b12f43e1e55248c90e84804777009eed0a4
+  subpackages:
+  - unix
+  - windows
+testImports:
+- name: github.com/davecgh/go-spew
+  version: d8f796af33cc11cb798c1aaeb27a4ebc5099927d
+  subpackages:
+  - spew
+- name: github.com/pmezard/go-difflib
+  version: 5d4384ee4fb2527b0a1256a821ebfc92f91efefc
+  subpackages:
+  - difflib

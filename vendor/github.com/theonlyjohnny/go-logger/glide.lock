@@ -1,0 +1,25 @@
+hash: 5fe383806b1238e794022d1772e416bc8a511d9a0814125efaa35d678e22178f
+updated: 2019-03-09T02:11:56.549724684Z
+imports:
+- name: github.com/fatih/color
+  version: 5b77d2a35fb0ede96d138fc9a99f5c9b6aef11b4
+- name: github.com/konsorten/go-windows-terminal-sequences
+  version: f55edac94c9bbba5d6182a4be46d86a2c9b5b50e
+- name: github.com/mattn/go-colorable
+  version: 3a70a971f94a22f2fa562ffcc7a0eb45f5daf045
+- name: github.com/mattn/go-isatty
+  version: 369ecd8cea9851e459abb67eb171853e3986591e
+- name: github.com/sirupsen/logrus
+  version: e1e72e9de974bd926e5c56f83753fba2df402ce5
+  subpackages:
+  - hooks/syslog
+- name: golang.org/x/crypto
+  version: c2843e01d9a2bc60bb26ad24e09734fdc2d9ec58
+  subpackages:
+  - ssh/terminal
+- name: golang.org/x/sys
+  version: 584f3b12f43e1e55248c90e84804777009eed0a4
+  subpackages:
+  - unix
+  - windows
+testImports: []
